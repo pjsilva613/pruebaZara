@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "fb60db8c-06fd-4bbd-a5a3-ed4602f40799",
+		"name": "zara",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6434078"
+	},
+	"item": [
+		{
+			"name": "Test 1: petición a las 10:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApply\": \"2020-06-14 10:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 2: petición a las 16:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApply\": \"2020-06-14 16:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 3: petición a las 21:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApply\": \"2020-06-14 21:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 4: petición a las 10:00 del día 15 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApply\": \"2020-06-15 10:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 5: petición a las 21:00 del día 16 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateApply\": \"2020-06-16 21:00:00\",\r\n    \"productId\": 35455,\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
